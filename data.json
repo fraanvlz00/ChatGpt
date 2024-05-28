@@ -1,0 +1,9 @@
+{
+    "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+    ],
+    "name": "John Doe",
+    "age": 30
+}
