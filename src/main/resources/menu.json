@@ -1,409 +1,179 @@
 {
-  "lunes": {
-    "vegetariano": {
-      "bebestibles": {
-        "1": "fanta",
-        "2": "sprite",
-        "3": "agua"
-      },
-      "platoDeFondo":{
-        "1": "papas con tortilla de verduras"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "flan",
-        "2": "futa"
-      },
-      "sopa": {
-        "1": "sopa de verduras"
-      },
-      "acompañamiento": {
-        "1": "pan"
+  "dias": {
+    "lunes": {
+      "menus": {
+        "vegetariano": {
+          "precio": 2800,
+          "bebestibles": ["fanta", "sprite", "agua"],
+          "platoDeFondo": ["papas con tortilla de verduras"],
+          "ensalada": ["lechuga", "zanahoria"],
+          "postre": ["flan", "fruta"],
+          "sopa": ["sopa de verduras"],
+          "acompañamiento": ["pan"]
+        },
+        "economico": {
+          "precio": 1800,
+          "bebestibles": ["fanta", "sprite", "agua"],
+          "platoDeFondo": ["papas con carne"],
+          "postre": ["flan", "fruta"]
+        },
+        "ejecutivo": {
+          "precio": 3100,
+          "bebestibles": ["fanta", "sprite", "agua"],
+          "platoDeFondo": ["papas con carne", "cazuela"],
+          "ensalada": ["lechuga", "zanahoria"],
+          "postre": ["flan", "fruta"],
+          "sopa": ["sopa de verduras"],
+          "acompañamiento": ["pan"]
+        },
+        "baes": {
+          "precio": 1800,
+          "bebestibles": ["fanta", "sprite", "agua"],
+          "platoDeFondo": ["papas con carne", "cazuela"],
+          "ensalada": ["lechuga", "zanahoria"],
+          "postre": ["flan", "fruta"]
+        }
       }
     },
-    "economico": {
-      "bebestibles": {
-        "1": "fanta",
-        "2": "sprite",
-        "3": "agua"
-      },
-      "platoDeFondo":{
-        "1": "papas con carne"
-      },
-      "postre": {
-        "1": "flan",
-        "2": "futa"
+    "martes": {
+      "menus": {
+        "vegetariano": {
+          "precio": 2800,
+          "bebestibles": ["jugo de naranja", "agua"],
+          "platoDeFondo": ["lentejas con arroz"],
+          "ensalada": ["espinaca", "remolacha"],
+          "postre": ["gelatina", "fruta"],
+          "sopa": ["sopa de tomate"],
+          "acompañamiento": ["pan integral"]
+        },
+        "economico": {
+          "precio": 1800,
+          "bebestibles": ["jugo de naranja", "agua"],
+          "platoDeFondo": ["pollo con papas"],
+          "postre": ["gelatina", "fruta"]
+        },
+        "ejecutivo": {
+          "precio": 3100,
+          "bebestibles": ["jugo de naranja", "agua"],
+          "platoDeFondo": ["pollo con papas", "pescado frito"],
+          "ensalada": ["espinaca", "remolacha"],
+          "postre": ["gelatina", "fruta"],
+          "sopa": ["sopa de tomate"],
+          "acompañamiento": ["pan integral"]
+        },
+        "baes": {
+          "precio": 1800,
+          "bebestibles": ["jugo de naranja", "agua"],
+          "platoDeFondo": ["pollo con papas", "pescado frito"],
+          "ensalada": ["espinaca", "remolacha"],
+          "postre": ["gelatina", "fruta"]
+        }
       }
     },
-    "ejecutivo": {
-      "bebestibles": {
-        "1": "fanta",
-        "2": "sprite",
-        "3": "agua"
-      },
-      "platoDeFondo":{
-        "1": "papas con carne",
-        "2": "cazuela"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "flan",
-        "2": "futa"
-      },
-      "sopa": {
-        "1": "sopa de verduras"
-      },
-      "acompañamiento": {
-        "1": "pan"
-      }
-
-    },
-    "baes": {
-      "bebestibles": {
-        "1": "fanta",
-        "2": "sprite",
-        "3": "agua"
-      },
-      "platoDeFondo":{
-        "1": "papas con carne",
-        "2": "cazuela"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "flan",
-        "2": "futa"
-      }
-
-    }
-  },
-  "martes": {
-    "vegetariano": {
-      "bebestibles": {
-        "1": "jugo de naranja",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "lentejas con arroz"
-      },
-      "ensalada": {
-        "1": "espinaca",
-        "2": "remolacha"
-      },
-      "postre": {
-        "1": "gelatina",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de tomate"
-      },
-      "acompañamiento": {
-        "1": "pan integral"
+    "miércoles": {
+      "menus": {
+        "vegetariano": {
+          "precio": 2800,
+          "bebestibles": ["jugo de manzana", "agua"],
+          "platoDeFondo": ["guiso de verduras"],
+          "ensalada": ["repollo", "zanahoria"],
+          "postre": ["yogur", "fruta"],
+          "sopa": ["sopa de espinaca"],
+          "acompañamiento": ["pan de centeno"]
+        },
+        "economico": {
+          "precio": 1800,
+          "bebestibles": ["jugo de manzana", "agua"],
+          "platoDeFondo": ["pastel de papas"],
+          "postre": ["yogur", "fruta"]
+        },
+        "ejecutivo": {
+          "precio": 3100,
+          "bebestibles": ["jugo de manzana", "agua"],
+          "platoDeFondo": ["pastel de papas", "lasagna"],
+          "ensalada": ["repollo", "zanahoria"],
+          "postre": ["yogur", "fruta"],
+          "sopa": ["sopa de espinaca"],
+          "acompañamiento": ["pan de centeno"]
+        },
+        "baes": {
+          "precio": 1800,
+          "bebestibles": ["jugo de manzana", "agua"],
+          "platoDeFondo": ["pastel de papas", "lasagna"],
+          "ensalada": ["repollo", "zanahoria"],
+          "postre": ["yogur", "fruta"]
+        }
       }
     },
-    "economico": {
-      "bebestibles": {
-        "1": "jugo de naranja",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pollo con papas"
-      },
-      "postre": {
-        "1": "gelatina",
-        "2": "fruta"
+    "jueves": {
+      "menus": {
+        "vegetariano": {
+          "precio": 2800,
+          "bebestibles": ["jugo de piña", "agua"],
+          "platoDeFondo": ["risotto de champiñones"],
+          "ensalada": ["lechuga", "pepino"],
+          "postre": ["mousse de chocolate", "fruta"],
+          "sopa": ["sopa de champiñones"],
+          "acompañamiento": ["pan de avena"]
+        },
+        "economico": {
+          "precio": 1800,
+          "bebestibles": ["jugo de piña", "agua"],
+          "platoDeFondo": ["arroz con pollo"],
+          "postre": ["mousse de chocolate", "fruta"]
+        },
+        "ejecutivo": {
+          "precio": 3100,
+          "bebestibles": ["jugo de piña", "agua"],
+          "platoDeFondo": ["arroz con pollo", "pasta a la bolognesa"],
+          "ensalada": ["lechuga", "pepino"],
+          "postre": ["mousse de chocolate", "fruta"],
+          "sopa": ["sopa de champiñones"],
+          "acompañamiento": ["pan de avena"]
+        },
+        "baes": {
+          "precio": 1800,
+          "bebestibles": ["jugo de piña", "agua"],
+          "platoDeFondo": ["arroz con pollo", "pasta a la bolognesa"],
+          "ensalada": ["lechuga", "pepino"],
+          "postre": ["mousse de chocolate", "fruta"]
+        }
       }
     },
-    "ejecutivo": {
-      "bebestibles": {
-        "1": "jugo de naranja",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pollo con papas",
-        "2": "pescado frito"
-      },
-      "ensalada": {
-        "1": "espinaca",
-        "2": "remolacha"
-      },
-      "postre": {
-        "1": "gelatina",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de tomate"
-      },
-      "acompañamiento": {
-        "1": "pan integral"
-      }
-    },
-    "baes": {
-      "bebestibles": {
-        "1": "jugo de naranja",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pollo con papas",
-        "2": "pescado frito"
-      },
-      "ensalada": {
-        "1": "espinaca",
-        "2": "remolacha"
-      },
-      "postre": {
-        "1": "gelatina",
-        "2": "fruta"
-      }
-    }
-  },
-  "miércoles": {
-    "vegetariano": {
-      "bebestibles": {
-        "1": "jugo de manzana",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "guiso de verduras"
-      },
-      "ensalada": {
-        "1": "repollo",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "yogur",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de espinaca"
-      },
-      "acompañamiento": {
-        "1": "pan de centeno"
-      }
-    },
-    "economico": {
-      "bebestibles": {
-        "1": "jugo de manzana",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de papas"
-      },
-      "postre": {
-        "1": "yogur",
-        "2": "fruta"
-      }
-    },
-    "ejecutivo": {
-      "bebestibles": {
-        "1": "jugo de manzana",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de papas",
-        "2": "lasagna"
-      },
-      "ensalada": {
-        "1": "repollo",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "yogur",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de espinaca"
-      },
-      "acompañamiento": {
-        "1": "pan de centeno"
-      }
-    },
-    "baes": {
-      "bebestibles": {
-        "1": "jugo de manzana",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de papas",
-        "2": "lasagna"
-      },
-      "ensalada": {
-        "1": "repollo",
-        "2": "zanahoria"
-      },
-      "postre": {
-        "1": "yogur",
-        "2": "fruta"
-      }
-    }
-  },
-  "jueves": {
-    "vegetariano": {
-      "bebestibles": {
-        "1": "jugo de piña",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "risotto de champiñones"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "pepino"
-      },
-      "postre": {
-        "1": "mousse de chocolate",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de champiñones"
-      },
-      "acompañamiento": {
-        "1": "pan de avena"
-      }
-    },
-    "economico": {
-      "bebestibles": {
-        "1": "jugo de piña",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "arroz con pollo"
-      },
-      "postre": {
-        "1": "mousse de chocolate",
-        "2": "fruta"
-      }
-    },
-    "ejecutivo": {
-      "bebestibles": {
-        "1": "jugo de piña",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "arroz con pollo",
-        "2": "pasta a la bolognesa"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "pepino"
-      },
-      "postre": {
-        "1": "mousse de chocolate",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de champiñones"
-      },
-      "acompañamiento": {
-        "1": "pan de avena"
-      }
-    },
-    "baes": {
-      "bebestibles": {
-        "1": "jugo de piña",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "arroz con pollo",
-        "2": "pasta a la bolognesa"
-      },
-      "ensalada": {
-        "1": "lechuga",
-        "2": "pepino"
-      },
-      "postre": {
-        "1": "mousse de chocolate",
-        "2": "fruta"
-      }
-    }
-  },
-  "viernes": {
-    "vegetariano": {
-      "bebestibles": {
-        "1": "limonada",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "quinoa con verduras"
-      },
-      "ensalada": {
-        "1": "coleslaw",
-        "2": "rúcula"
-      },
-      "postre": {
-        "1": "tarta de manzana",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de calabaza"
-      },
-      "acompañamiento": {
-        "1": "pan sin gluten"
-      }
-    },
-    "economico": {
-      "bebestibles": {
-        "1": "limonada",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de choclo"
-      },
-      "postre": {
-        "1": "tarta de manzana",
-        "2": "fruta"
-      }
-    },
-    "ejecutivo": {
-      "bebestibles": {
-        "1": "limonada",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de choclo",
-        "2": "paella"
-      },
-      "ensalada": {
-        "1": "coleslaw",
-        "2": "rúcula"
-      },
-      "postre": {
-        "1": "tarta de manzana",
-        "2": "fruta"
-      },
-      "sopa": {
-        "1": "sopa de calabaza"
-      },
-      "acompañamiento": {
-        "1": "pan sin gluten"
-      }
-    },
-    "baes": {
-      "bebestibles": {
-        "1": "limonada",
-        "2": "agua"
-      },
-      "platoDeFondo": {
-        "1": "pastel de choclo",
-        "2": "paella"
-      },
-      "ensalada": {
-        "1": "coleslaw",
-        "2": "rúcula"
-      },
-      "postre": {
-        "1": "tarta de manzana",
-        "2": "fruta"
+    "viernes": {
+      "menus": {
+        "vegetariano": {
+          "precio": 2800,
+          "bebestibles": ["limonada", "agua"],
+          "platoDeFondo": ["quinoa con verduras"],
+          "ensalada": ["coleslaw", "rúcula"],
+          "postre": ["tarta de manzana", "fruta"],
+          "sopa": ["sopa de calabaza"],
+          "acompañamiento": ["pan sin gluten"]
+        },
+        "economico": {
+          "precio": 1800,
+          "bebestibles": ["limonada", "agua"],
+          "platoDeFondo": ["pastel de choclo"],
+          "postre": ["tarta de manzana", "fruta"]
+        },
+        "ejecutivo": {
+          "precio": 3100,
+          "bebestibles": ["limonada", "agua"],
+          "platoDeFondo": ["pastel de choclo", "paella"],
+          "ensalada": ["coleslaw", "rúcula"],
+          "postre": ["tarta de manzana", "fruta"],
+          "sopa": ["sopa de calabaza"],
+          "acompañamiento": ["pan sin gluten"]
+        },
+        "baes": {
+          "precio": 1800,
+          "bebestibles": ["limonada", "agua"],
+          "platoDeFondo": ["pastel de choclo", "paella"],
+          "ensalada": ["coleslaw", "rúcula"],
+          "postre": ["tarta de manzana", "fruta"]
+        }
       }
     }
   }
 }
-

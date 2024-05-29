@@ -1,21 +1,14 @@
 package org.example;
 
-class Almuerzo {
-    private String dia;
+import com.fasterxml.jackson.databind.JsonNode;
+
+public class Dia {
     private Menu vegetariano;
     private Menu economico;
     private Menu ejecutivo;
     private Menu baes;
 
     // Getters y setters
-    public String getDia() {
-        return dia;
-    }
-
-    public void setDia(String dia) {
-        this.dia = dia;
-    }
-
     public Menu getVegetariano() {
         return vegetariano;
     }
@@ -46,5 +39,16 @@ class Almuerzo {
 
     public void setBaes(Menu baes) {
         this.baes = baes;
+    }
+
+    public static Dia fromJsonNode(JsonNode node) {
+        Dia dia = new Dia();
+        if (node != null) {
+            dia.setVegetariano(Menu.fromJsonNode(node.get("vegetariano")));
+            dia.setEconomico(Menu.fromJsonNode(node.get("economico")));
+            dia.setEjecutivo(Menu.fromJsonNode(node.get("ejecutivo")));
+            dia.setBaes(Menu.fromJsonNode(node.get("baes")));
+        }
+        return dia;
     }
 }

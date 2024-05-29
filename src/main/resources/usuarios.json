@@ -1,0 +1,24 @@
+{
+  "usuarios": [
+    {
+      "correoElectronico": "juan.perez@example.com",
+      "contraseña": "password123"
+    },
+    {
+      "correoElectronico": "maria.garcia@example.com",
+      "contraseña": "securepass456"
+    },
+    {
+      "correoElectronico": "carlos.rodriguez@example.com",
+      "contraseña": "mypassword789"
+    },
+    {
+      "correoElectronico": "ana.martinez@example.com",
+      "contraseña": "ana_secure123"
+    },
+    {
+      "correoElectronico": "luis.fernandez@example.com",
+      "contraseña": "luispass456"
+    }
+  ]
+}
